@@ -1,0 +1,26 @@
+messages:
+  winning-title: '&6&lMINERAÇÃO;&fVocê recebeu &7<item> &fminerando!'
+
+world-whitelist:
+  - 'world'
+  - 'plotworld'
+
+rewards:
+  1:
+    friendly-name: '1 Pedra Chique'
+    chance: 50.0
+    # id:data
+    applicable-for:
+      - '1:0'
+      - '57:0'
+    commands:
+      - 'give <player> stone 1'
+      - 'say <player> ganhou uma pedra chique, ihul!'
+  2:
+    friendly-name: '1.000 de Cash'
+    chance: 25.0
+    # id:data
+    applicable-for:
+      - '3:0'
+    commands:
+      - 'cash add <player> 1000'

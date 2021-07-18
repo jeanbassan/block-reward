@@ -1,0 +1,4 @@
+name: BlockReward
+version: 1.0-SNAPSHOT
+main: com.github.jean2233.blockreward.BlockRewardPlugin
+authors: [ _harmonyguy ]

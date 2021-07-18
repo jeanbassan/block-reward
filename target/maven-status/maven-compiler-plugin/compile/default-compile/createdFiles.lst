@@ -1,0 +1,9 @@
+com\github\jean2233\blockreward\command\RewardCommand.class
+com\github\jean2233\blockreward\controller\RewardController.class
+com\github\jean2233\blockreward\util\Cache.class
+com\github\jean2233\blockreward\data\Reward$RewardBuilder.class
+com\github\jean2233\blockreward\BlockRewardPlugin.class
+com\github\jean2233\blockreward\cache\RewardCache.class
+com\github\jean2233\blockreward\listener\BlockListener.class
+com\github\jean2233\blockreward\adapter\RewardAdapter.class
+com\github\jean2233\blockreward\data\Reward.class

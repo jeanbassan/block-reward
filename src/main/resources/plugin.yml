@@ -1,0 +1,4 @@
+name: BlockReward
+version: ${project.version}
+main: com.github.jean2233.blockreward.BlockRewardPlugin
+authors: [ _harmonyguy ]

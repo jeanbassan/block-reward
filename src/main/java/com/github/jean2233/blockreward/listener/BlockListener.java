@@ -8,6 +8,8 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
 
+import java.util.List;
+
 @RequiredArgsConstructor
 public class BlockListener implements Listener {
 
@@ -22,6 +24,12 @@ public class BlockListener implements Listener {
     }
 
     private boolean isWhitelisted(String world) {
-        return plugin.getConfig().getStringList("world-whitelist").contains(world);
+        final List<String> list = plugin.getConfig().getStringList("world-whitelist");
+        for (String value : list) {
+            if(world.equalsIgnoreCase(value)) {
+                return true;
+            }
+        }
+        return false;
     }
 }
